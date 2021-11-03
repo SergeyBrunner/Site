@@ -1,0 +1,136 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width: 1160px;
+    margin: 0 auto;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin-top: 15px;
+}
+
+.background{
+    margin-top: 15px;
+    width: 100%;
+    height: 137vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 0;
+}
+
+.background span {
+    position: absolute;
+    text-align: right;
+    right: 115px;
+    bottom: 18px;
+    font-size: 14px;
+    color: rgba(31, 32, 65, 0.75);
+    line-height: 24px;
+}
+
+.square{
+    width: 380px;
+    height: 374px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    position: absolute;
+    top: 70px;
+}
+
+.square h1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #1F2041;
+    margin: 30px 40px 30px 21px ;
+}
+.square h3 {
+    display: inline;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #1F2041;
+    margin-left: 30px;
+    margin-right: 65px;
+}
+.form_sq {
+    display: inline;
+}
+.inp_square{
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 150px;
+    height: 44px;
+    margin-top: 5.44px;
+    margin-bottom: 20.56px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(31, 32, 65, 0.75);
+    padding-left: 15px;
+}
+.entry{
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+input[type=date]::-webkit-calendar-picker-indicator{
+	background:url("../img/expand_more.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+input[type=number]::-webkit-calendar-picker-indicator{
+	background:url("../img/expand_more.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.inp_sq{
+    width: 320px;
+    height: 44px;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-left: 30px;
+    margin-top: 5px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(31, 32, 65, 0.75);
+    padding-left: 15px;
+}
+
+.foot__text{
+    padding-bottom: 26px;
+    color: rgba(31, 32, 65, 0.75);
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.wrapper__footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img__footer{
+    margin-right: 20px;
+}

@@ -1,0 +1,78 @@
+.menu li{
+    display: inline;
+    margin-top: 26px;
+}
+.menu__li a{
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(31, 32, 65, 0.5);
+    transition: color 0.2 linear;
+}
+
+.menu__li a:hover{
+    color: #1F2041;
+}
+.menu__list{
+    display: flex;
+}
+.sub-menu__list{
+    margin-top: 5px;
+    display: none;
+}
+
+.sub-menu__link{
+    display: block;
+    position: absolute;
+    padding-top: 5px;
+    z-index: 1;
+}
+
+.menu__list>li:hover .sub-menu__list{
+    display: block;
+}
+.point{
+    margin-top: 20px;
+}
+
+.more{
+    margin-left: -20px;
+    margin-right: 24px;
+}
+.mar{
+    margin-top: 18px;
+}
+.mar a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.Log_In{
+    width: 87px;
+    height: 34px;
+    border-radius: 22px;
+    border: 2px solid transparent;
+    background: 
+     linear-gradient(#fff,#fff) padding-box,
+     linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%) border-box;
+    margin-right: 20px;
+}
+.Log_In a{
+    color: #BC9CFF;
+}
+
+.register{
+width: 196px;
+height: 34px;
+background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+border-radius: 22px;
+border: 0px;
+}
+
+.register a{
+    color: #fff;
+}
